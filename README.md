@@ -51,10 +51,8 @@ Example:
 python training/train.py \
   -c sam2/configs/rum_training/rum_training.yaml \
   launcher.gpus_per_node=1 \
-  dataset.mosev1.img_folder=/path/to/mosev1/images \
-  dataset.mosev1.gt_folder=/path/to/mosev1/masks \
-  dataset.mosev2.img_folder=/path/to/mosev2/images \
-  dataset.mosev2.gt_folder=/path/to/mosev2/masks
+  dataset.yourdataset.img_folder=/path/to/yourdataset/JPEGImages \
+  dataset.yourdataset.gt_folder=/path/to/yourdataset/Annotations
 ```
 
 ## License
